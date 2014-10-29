@@ -1,0 +1,167 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    padding-top: 50px;
+}
+
+#login-form{
+    
+    margin:60px;
+    
+    input[type="email"], input[type="password"] {
+        margin-bottom: 5px;
+    }
+    
+    input[type="email"]{
+        margin-top:20px;
+    }
+    
+    input[type="checkbox"]{
+        line-height: 20px;
+    }
+    
+    label{
+        font-weight: 400;
+        padding-left:3px;
+    }
+    
+    button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.bg-texture{
+
+    background-image: url(grey.png);
+    background-attachment: fixed;
+}
+
+.site-template {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mkt-home{
+    background-image: url(MktHome.jpg);
+    background-size: cover;
+    min-height: 860px;
+}
+
+.mkt-site
+{
+    /*border-top: 1px solid #D6E9C6;*/
+}
+.middle-section{
+    border-top: 1px solid #5CB85C;
+    margin-bottom: 20px;
+}
+
+.logo-box{
+    
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.05);
+    -moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.05);
+    box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.05);
+}
+
+.home_topics{
+    min-height: 200px;
+}
+
+.logo-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+
+    font-size: x-small;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
+
+.site-margin{
+
+    margin-left:15px;
+    margin-right:15px;
+}
+
+
+code {
+    font-size: 80%;
+}
+
+.home_campaign
+{
+    position:relative;
+    margin-top: 60px;
+}
+
+.la-carte-dish{
+
+
+}
+
+// Menu Dish
+.menu-dish
+{
+
+    padding-top: 15px;
+}
+
+.tab-buffet-container{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: #fff;
+    min-height: 200px;
+    margin-bottom: 15px;
+}
+
+.tab-content{
+    border: 1px solid #ddd;
+    border-top:0;
+}
+
+.bg-dish{
+    background: rgba(242,249,239,0.4);  /* 50% transparent */
+}
+
+.nav-tabs > li > a
+{
+    color: #aaa;
+}
+
+.tab-pane{
+    min-height: 100px;
+}
+
+.dish-header {
+    
+}
+
+.dish-header span{
+    vertical-align: bottom;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.dish-container{
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+
+.dish-content{
+    margin-bottom:18px;
+    margin-top:5px;
+    padding:10px;
+    background-color: #fafafa;
+    border:1px dashed #ddd;
+    font-weight: 300;
+}
